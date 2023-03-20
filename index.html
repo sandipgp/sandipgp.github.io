@@ -1,452 +1,188 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<title>New Articles on technology, social, news, sports</title>
-<style>
-html {
-	 background: #f5f7f8;
-	 font-family: system-ui;
-	 -webkit-font-smoothing: antialiased;
-	 padding: 20px 0;
-}
- header {
-	 width: 90%;
-	 max-width: 1240px;
-	 margin: 0 auto;
-}
- .band {
-	 width: 90%;
-	 max-width: 1240px;
-	 margin: 0 auto;
-	 display: grid;
-	 grid-template-columns: 1fr;
-	 grid-template-rows: auto;
-	 grid-gap: 20px;
-}
- @media (min-width: 30em) {
-	 .band {
-		 grid-template-columns: 1fr 1fr;
-	}
-}
- @media (min-width: 60em) {
-	 .band {
-		 grid-template-columns: repeat(4, 1fr);
-	}
-}
- .card {
-	 background: white;
-	 text-decoration: none;
-	 color: #444;
-	 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	 display: flex;
-	 flex-direction: column;
-	 min-height: 100%;
-	 position: relative;
-	 top: 0;
-	 transition: all 0.1s ease-in;
-}
- .card:hover {
-	 top: -2px;
-	 box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
- .card article {
-	 padding: 20px;
-	 flex: 1;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: space-between;
-}
- .card h1 {
-	 font-size: 20px;
-	 margin: 0;
-	 color: #333;
-}
- .card p {
-	 flex: 1;
-	 line-height: 1.4;
-}
- .card span {
-	 font-size: 12px;
-	 font-weight: bold;
-	 color: #999;
-	 text-transform: uppercase;
-	 letter-spacing: 0.05em;
-	 margin: 2em 0 0 0;
-}
- .card .thumb {
-	 padding-bottom: 60%;
-	 background-size: cover;
-	 background-position: center center;
-}
- @media (min-width: 60em) {
-	 .item-1 {
-		 grid-column: 1 / span 2;
-	}
-	 .item-1 h1 {
-		 font-size: 24px;
-	}
-}
- 
-</style>
-</head>
-
-<body>
-    <header>
-        <h1>Articles</h1>
-      </header>
-      <div class="band">
-        <div class="item-1">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(./images/flex-2.jpeg);"></div>
-            <article>
-              <h1>International Artist Feature: Malaysia</h1>
-              <span>Mary Winkler</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-2">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
-            <article>
-              <h1>How to Conduct Remote Usability Testing</h1>
-              <span>Harry Brignull</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-3">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
-            <article>
-              <h1>Created by You, July Edition</h1>
-              <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community! </p>
-              <span>Melody Nieves</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-4">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
-            <article>
-              <h1>How to Code a Scrolling “Alien Lander” Website</h1>
-              <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.</p>
-              <span>Kezz Bracey</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-5">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
-            <article>
-              <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
-              <span>Rose</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-6">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);"></div>
-            <article>
-              <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
-      
-              <span>Marie Gardiner</span>
-            </article>
-          </a>
-        </div>
-        <div class="item-7">
-          <a href="#" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
-            <article>
-              <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
-              <span>Kendra Schaefer</span>
-            </article>
-          </a>
-        </div>
-      </div>
-
-</body>
-</html> -->
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Mango Order Details</title>
-  <!-- Facebook Meta Tags -->
-  <!-- <meta property="og:url" content="http://cuts2.com/pDhiB">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Prebooking for Mangos">
-  <meta property="og:description" content="Season first mango">
-  <meta property="og:image" content="https://sandipgp.github.io/images/vedika-logo.png"> -->
-
-  <!-- Twitter Meta Tags -->
-  <!-- <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="cuts2.com">
-  <meta property="twitter:url" content="http://cuts2.com/pDhiB">
-  <meta name="twitter:title" content="Prebooking for Mangos">
-  <meta name="twitter:description" content="Season first mango">
-  <meta name="twitter:image" content="https://sandipgp.github.io/images/vedika-logo.png"> -->
-
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Articles on technology, social, news, sports</title>
   <style>
-    @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap");
-
-    *,
-    *::after,
-    *::before {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-
     html {
-      font-size: 62.5%;
+      background: #f5f7f8;
+      font-family: system-ui;
+      -webkit-font-smoothing: antialiased;
+      padding: 20px 0;
     }
 
-    body {
-      color: #2c3e50;
-      font-family: "Montserrat", sans-serif;
-      width: 100%;
-      font-weight: 300;
-      min-height: 100vh;
+    header {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    .band {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+    }
+
+    @media (min-width: 30em) {
+      .band {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 60em) {
+      .band {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
       position: relative;
-      display: block;
+      top: 0;
+      transition: all 0.1s ease-in;
     }
 
-    h2,
-    h4,
-    h6 {
+    .card:hover {
+      top: -2px;
+      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card article {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h1 {
+      font-size: 20px;
       margin: 0;
-      padding: 0;
-      display: inline-block;
+      color: #333;
     }
 
-    h5 {
-      margin-top: 1rem;
-      font-weight: 500;
-      font-size: 2rem;
-      color: #008000;
-      margin-bottom: 1rem;
+    .card p {
+      flex: 1;
+      line-height: 1.4;
     }
 
-    .root {
-      padding: 2rem 1.5rem;
-      border-radius: 5px;
-      box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-      min-height: 100vh;
-    }
-
-    figure {
-      display: flex;
-    }
-
-    figure img {
-      width: 8rem;
-      height: 8rem;
-      border-radius: 50%;
-      border: 1px solid #f00087;
-      margin-right: 1.5rem;
-      padding-left: 0.5rem;
-    }
-
-    figure figcaption {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-    }
-
-    figure figcaption h4 {
-      font-size: 2rem;
-      font-weight: 500;
-    }
-
-    figure figcaption h6 {
-      font-size: 1.3rem;
-      font-weight: 300;
-    }
-
-    figure figcaption h2 {
-      font-size: 1.4rem;
+    .card span {
+      font-size: 12px;
       font-weight: bold;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin: 2em 0 0 0;
     }
 
-    .order-details {
-      margin-top: 1.5rem;
-      border-top: 1px dashed #2c3e50;
-      display: flex;
-      flex-direction: column;
+    .card .thumb {
+      padding-bottom: 60%;
+      background-size: cover;
+      background-position: center center;
     }
 
-    .order-track {
-      margin-top: 1.5rem;
-      padding: 1rem 1rem;
-      border-top: 1px dashed #2c3e50;
-      padding-top: 2.5rem;
-      display: flex;
-      flex-direction: column;
-      border-bottom: 1px dashed #2c3e50;
-    }
+    @media (min-width: 60em) {
+      .item-1 {
+        grid-column: 1 / span 2;
+      }
 
-    .order-track-step {
-      display: flex;
-      height: 7rem;
-    }
-
-    .order-track-step:last-child {
-      overflow: hidden;
-      height: 4rem;
-    }
-
-    .order-track-step:last-child .order-track-status span:last-of-type {
-      display: none;
-    }
-
-    .order-track-status {
-      margin-right: 1.5rem;
-      position: relative;
-    }
-
-    .order-track-status-dot {
-      display: block;
-      width: 2.2rem;
-      height: 2.2rem;
-      border-radius: 50%;
-      background: #67f54d;
-    }
-
-    .order-track-status-dot-disabled {
-      display: block;
-      width: 2.2rem;
-      height: 2.2rem;
-      border-radius: 50%;
-      background: #ededed;
-    }
-
-    .order-track-status-line {
-      display: block;
-      margin: 0 auto;
-      width: 2px;
-      height: 7rem;
-      background: #67f54d;
-    }
-
-    .order-track-status-line-disabled {
-      display: block;
-      margin: 0 auto;
-      width: 2px;
-      height: 7rem;
-      background: #ededed;
-    }
-
-    .order-track-text-disabled {
-      color: #ededed;
-    }
-
-    .order-track-text-stat {
-      font-size: 1.3rem;
-      font-weight: 500;
-      margin-bottom: 3px;
-    }
-
-    .order-track-text-sub {
-      font-size: 1rem;
-      font-weight: 300;
-    }
-
-    .order-track {
-      transition: all 0.3s height 0.3s;
-      transform-origin: top center;
-    }
-
-    .order-footer {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin: 0.5rem;
-      text-align: center;
+      .item-1 h1 {
+        font-size: 24px;
+      }
     }
   </style>
 </head>
 
 <body>
-  <section class="root">
-    <figure>
-      <img src="images/vedika-logo.png" alt="Vivantalife Vedika">
-      <figcaption>
-        <h4>Mango Order</h4>
-        <h6>Type: Devgadh Alphanso</h6>
-        <h6>Contact: <a href="tel:+919881853900">+91-9881853900</a> <b>Anup</b></h6>
-        <!-- <h2>0 Boxes</h2> -->
-      </figcaption>
-    </figure>
-    <div class="order-details">
-      <h5>Order Details</h5>
-      <iframe scrolling="no"
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSksT1sg89FViCzDFM6KL-6_0HhrNAuP1JSijlPGv8lJKNI76vG8_3KhoK3DI1kkaVDd8zfwZKR7-Nl/pubhtml?rm=minimal&gid=0&range=a1:e45&single=true&widget=true&headers=false&chrome=false"
-        style="
-    width: 100%;
-    border: 0;
-    overflow-y: hidden;
-    min-height: 300px;
-"></iframe>
+  <header>
+    <h1>Articles</h1>
+  </header>
+  <div class="band">
+    <div class="item-1">
+      <a href="#" class="card">
+        <div class="thumb" style="background-image: url(./images/flex-2.jpeg);"></div>
+        <article>
+          <h1>International Artist Feature: Malaysia</h1>
+          <span>Mary Winkler</span>
+        </article>
+      </a>
     </div>
-    <h5>Order Tracking</h5>
-
-    <div class="order-track">
-      <div class="order-track-step">
-        <div class="order-track-status">
-          <span class="order-track-status-dot"></span>
-          <span class="order-track-status-line"></span>
-        </div>
-        <div class="order-track-text">
-          <p class="order-track-text-stat">Booking Open</p>
-          <span class="order-track-text-sub">Till 19th March, 2023</span>
-        </div>
-      </div>
-      <div class="order-track-step">
-        <div class="order-track-status">
-          <span class="order-track-status-dot-disabled"></span>
-          <span class="order-track-status-line-disabled"></span>
-        </div>
-        <div class="order-track-text-disabled">
-          <p class="order-track-text-stat">Order Placed</p>
-          <span class="order-track-text-sub">20th March, 2023</span>
-        </div>
-      </div>
-      <div class="order-track-step">
-        <div class="order-track-status">
-          <span class="order-track-status-dot-disabled"></span>
-          <span class="order-track-status-line-disabled"></span>
-        </div>
-        <div class="order-track-text-disabled">
-          <p class="order-track-text-stat">Packging In Progress</p>
-          <span class="order-track-text-sub">20th March, 2023</span>
-        </div>
-      </div>
-      <div class="order-track-step">
-        <div class="order-track-status">
-          <span class="order-track-status-dot-disabled"></span>
-          <span class="order-track-status-line-disabled"></span>
-        </div>
-        <div class="order-track-text-disabled">
-          <p class="order-track-text-stat">Order Dispatched</p>
-          <span class="order-track-text-sub">20th March, 2023</span>
-        </div>
-      </div>
-      <div class="order-track-step">
-        <div class="order-track-status">
-          <span class="order-track-status-dot-disabled"></span>
-          <span class="order-track-status-line-disabled"></span>
-        </div>
-        <div class="order-track-text-disabled">
-          <p class="order-track-text-stat">Order Deliverd</p>
-          <span class="order-track-text-sub">20th March, 2023</span>
-        </div>
-      </div>
-
+    <div class="item-2">
+      <a href="#" class="card">
+        <div class="thumb"
+          style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
+        <article>
+          <h1>How to Conduct Remote Usability Testing</h1>
+          <span>Harry Brignull</span>
+        </article>
+      </a>
     </div>
+    <div class="item-3">
+      <a href="#" class="card">
+        <div class="thumb"
+          style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
+        <article>
+          <h1>Created by You, July Edition</h1>
+          <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community!
+          </p>
+          <span>Melody Nieves</span>
+        </article>
+      </a>
+    </div>
+    <div class="item-4">
+      <a href="#" class="card">
+        <div class="thumb"
+          style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
+        <article>
+          <h1>How to Code a Scrolling “Alien Lander” Website</h1>
+          <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien
+            Lander” making its way to touch down.</p>
+          <span>Kezz Bracey</span>
+        </article>
+      </a>
+    </div>
+    <div class="item-5">
+      <a href="#" class="card">
+        <div class="thumb"
+          style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
+        <article>
+          <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
+          <span>Rose</span>
+        </article>
+      </a>
+    </div>
+    <div class="item-6">
+      <a href="#" class="card">
+        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);">
+        </div>
+        <article>
+          <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
 
-    <div class="order-footer">Thank you for your order.</div>
-
-  </section>
+          <span>Marie Gardiner</span>
+        </article>
+      </a>
+    </div>
+    <div class="item-7">
+      <a href="#" class="card">
+        <div class="thumb"
+          style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
+        <article>
+          <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
+          <span>Kendra Schaefer</span>
+        </article>
+      </a>
+    </div>
+  </div>
 
 </body>
 
